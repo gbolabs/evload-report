@@ -1,0 +1,15 @@
+meta {
+  name: Change SNTP Sever
+  type: http
+  seq: 1
+}
+
+get {
+  url: http://192.168.4.132/rpc/Sys.SetConfig?config={"sntp":{"server":"ntp.metas.ch"}}
+  body: none
+  auth: none
+}
+
+params:query {
+  config: {"sntp":{"server":"ntp.metas.ch"}}
+}

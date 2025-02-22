@@ -1,0 +1,6 @@
+@evload_report_HostAddress = http://localhost:5142
+
+GET {{evload_report_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

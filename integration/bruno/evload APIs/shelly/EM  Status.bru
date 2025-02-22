@@ -1,0 +1,15 @@
+meta {
+  name: EM  Status
+  type: http
+  seq: 4
+}
+
+get {
+  url: http://192.168.4.132/rpc/EM.GetStatus?id=0
+  body: none
+  auth: none
+}
+
+params:query {
+  id: 0
+}

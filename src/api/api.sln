@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "evload-report", "evload-report\evload-report.csproj", "{FB231D57-47F3-4A23-914E-5E68728A2CB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shelly-connector", "shelly-connector\shelly-connector.csproj", "{6B6B4024-7ADE-496B-8ADA-93E5AC8BB713}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "persistence", "persistence\persistence.csproj", "{3A6C7AAF-C3E9-4C39-8BA0-7A955A1D55ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Contracts\Contracts.csproj", "{CB487C56-3DA6-4BE3-BEFE-6CCC5320C413}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB231D57-47F3-4A23-914E-5E68728A2CB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB231D57-47F3-4A23-914E-5E68728A2CB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB231D57-47F3-4A23-914E-5E68728A2CB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB231D57-47F3-4A23-914E-5E68728A2CB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B6B4024-7ADE-496B-8ADA-93E5AC8BB713}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B6B4024-7ADE-496B-8ADA-93E5AC8BB713}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B6B4024-7ADE-496B-8ADA-93E5AC8BB713}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B6B4024-7ADE-496B-8ADA-93E5AC8BB713}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A6C7AAF-C3E9-4C39-8BA0-7A955A1D55ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A6C7AAF-C3E9-4C39-8BA0-7A955A1D55ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A6C7AAF-C3E9-4C39-8BA0-7A955A1D55ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A6C7AAF-C3E9-4C39-8BA0-7A955A1D55ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB487C56-3DA6-4BE3-BEFE-6CCC5320C413}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB487C56-3DA6-4BE3-BEFE-6CCC5320C413}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB487C56-3DA6-4BE3-BEFE-6CCC5320C413}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB487C56-3DA6-4BE3-BEFE-6CCC5320C413}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
