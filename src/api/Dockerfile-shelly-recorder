@@ -18,5 +18,7 @@ FROM mcr.microsoft.com/dotnet/runtime:9.0
 WORKDIR /app
 COPY --from=build /app/out .
 
+LABEL org.opencontainers.image.description DESCRIPTION="Shelly Recorder"
+
 # Set the entry point for the application
 ENTRYPOINT ["dotnet", "shelly-recorder.dll"]
