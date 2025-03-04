@@ -8,7 +8,7 @@ on:
 
 env:
   # Define the tag for the Docker image, using the current date 
-  tag: ${{ github.run_number }}-$(date +'%Y%m%d')
+  tag: "$(date +'%Y%m%d')"
   # Define the repository for the Docker image
   repository: ghcr.io/gbolabs/shelly-recorder
 
