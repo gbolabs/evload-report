@@ -7,8 +7,6 @@ on:
     branches: [ "main" ]
 
 env:
-  # Define the tag for the Docker image, using the current date 
-  tag: "$(date +'%Y%m%d')"
   # Define the repository for the Docker image
   repository: ghcr.io/gbolabs/shelly-recorder
 
